@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import React, { useState } from 'react';
 // import './Teachers.css'; // Import CSS file for styling
 function Teachers() {

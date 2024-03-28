@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import React, { useState, useEffect } from 'react';
 import './Student.css'; // Import CSS file for styling
 import jsPDF from 'jspdf';
@@ -54,7 +54,7 @@ const Student = () => {
             fetchQuestions();
             setFetchClicked(false); // Reset fetchClicked state after fetching questions
         }
-    }, [fetchClicked]);
+    }, [fetchClicked, fetchQuestions]);
 
     const fetchQuestions = () => {
         setLoading(true);
