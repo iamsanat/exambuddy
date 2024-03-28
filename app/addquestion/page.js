@@ -60,8 +60,7 @@ function Teachers() {
   return (
     <div style={{ maxWidth: '600px', margin: '0 auto' }}>
   <div style={{ padding: '1rem', border: '1px solid #ccc', borderRadius: '0.5rem' }}>
-    <h2 style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '1rem' }}>Teacher's Page - Add Question</h2>
-    <form onSubmit={handleSubmit} style={{ marginBottom: '1rem' }}>
+  <h2 style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '1rem' }}>Teacher&apos;s Page - Add Question</h2>    <form onSubmit={handleSubmit} style={{ marginBottom: '1rem' }}>
       {/* Year selection */}
       <div style={{ marginBottom: '1rem' }}>
         <label style={{ display: 'block' }}>Year:</label>
